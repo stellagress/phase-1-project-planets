@@ -45,6 +45,13 @@ fetch('http://localhost:3000/planets')
                     e.target.style.fontSize = "24px"
                 })
             })
+
+            //second eventListener -> MouseOut:
+            firstList.querySelectorAll("h3").forEach(name=>{
+                name.addEventListener('mouseout', e=> {
+                    e.target.style.fontSize= "16px"
+                })
+            })
          
 
         })
