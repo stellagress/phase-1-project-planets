@@ -1,0 +1,69 @@
+{
+    "planets" : [
+    {
+        "id" : 1,
+        "name" : "Mercury",
+        "size" : "1,516mi (2,440km) radius",
+        "PredominantColor" : "grey",
+        "AverageTemperature" : "333°F (167°C)"
+    },
+    {
+        "id" : 2,
+        "name" : "Venus",
+        "size" : "3,760mi (6,052km) radius",
+        "PredominantColor" : "brown",
+        "AverageTemperature" : "867°F (464°C)"
+    },
+    {
+        "id" : 3,
+        "name" : "Earth",
+        "size" : "3,959mi (6,371km) radius",
+        "PredominantColor" : "Blue",
+        "AverageTemperature" : "59°F (15°C)"
+    },
+    {
+        "id" : 4,
+        "name" : "Mars",
+        "size" : "2,106mi (3,390km) radius",
+        "PredominantColor" : "red",
+        "AverageTemperature" : "-85°F (-65°C)"
+    },
+    {
+        "id" : 5,
+        "name" : "Jupiter",
+        "size" : "43,441mi (69,911km) radius",
+        "PredominantColor" : "brown",
+        "AverageTemperature" : "-166°F (-110°C)"
+    },
+    {
+        "id" : 6,
+        "name" : "Saturn",
+        "size" : "36,184mi (58,232km) radius",
+        "PredominantColor" : "golden",
+        "AverageTemperature" : "-220°F (-140°C)"
+    },
+    {
+        "id" : 7,
+        "name" : "Uranus",
+        "size" : "15,759mi (25,362km) radius",
+        "PredominantColor" : "blue-green",
+        "AverageTemperature" : "-320°F (-195°C)"
+    },
+    {
+        "id" : 8,
+        "name" : "Neptune",
+        "size" : "15,299mi (24,622km) radius",
+        "PredominantColor" : "blue",
+        "AverageTemperature" : "-330°F (-200°C)"
+    },
+    {
+        "id" : 9,
+        "name" : "Pluto?",
+        "size" : "738mi (1,188km) radius",
+        "PredominantColor" : "white",
+        "AverageTemperature" : "-375°F (-225°C)"
+    }
+
+]
+
+}
