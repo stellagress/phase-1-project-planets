@@ -40,10 +40,24 @@ fetch('http://localhost:3000/planets')
            
             allPlanets.appendChild(planetList)
 
+       
+            //first eventListener -> MouseOver:
+            firstList.addEventListener('mouseover', e=> {
+                e.preventDefault()
+                console.log(e)})
+
         })
     })
 
- 
+
+
+    //let olPlanets = document.querySelector("ol#mainPlanetList")
+    // firstList.addEventListener('mouseover', e=> {
+    //     e.preventDefault()
+    //     console.log(e)})
+
+    
+
 
 
 
