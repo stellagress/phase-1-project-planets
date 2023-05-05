@@ -20,8 +20,6 @@ fetch('http://localhost:3000/planets')
             
             //Unordered list with respective dersired information
             
-
-
             const planetName = document.createElement("h3")
             planetName.textContent = planet.name
 
@@ -42,9 +40,12 @@ fetch('http://localhost:3000/planets')
 
        
             //first eventListener -> MouseOver:
-            firstList.addEventListener('mouseover', e=> {
-                e.preventDefault()
-                console.log(e)})
+            firstList.querySelectorAll("h3").forEach(name => {
+                name.addEventListener('mouseover', e => {
+                    e.target.style.fontSize = "24px"
+                })
+            })
+         
 
         })
     })
