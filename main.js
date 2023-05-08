@@ -52,6 +52,18 @@ fetch('http://localhost:3000/planets')
                     e.target.style.fontSize= "16px"
                 })
             })
+
+            //thirs eventListener -> click:
+            firstList.querySelectorAll("h3").forEach(name=>{
+                name.addEventListener('click', e=>{
+                    const planetNameTex = e.target.textContent
+                    allPlanets.querySelectorAll("h3").forEach(planet =>{
+                        if(planet.textContent === planetNameTex){
+                            planet.scrollIntoView({behavior : "smooth"})
+                        }
+                    })
+                })
+            })
          
 
         })
