@@ -1,6 +1,6 @@
-/* body {
-    background-image: url("https://s1.static.brasilescola.uol.com.br/be/2022/09/2-sistema-solar.jpg")
-}  */
+body {
+    background-color: gray;
+} 
 
 
 
@@ -12,8 +12,22 @@
 
 
 .main-planet-list {
-    background-image: url("https://s1.static.brasilescola.uol.com.br/be/2022/09/2-sistema-solar.jpg");
-    background-size : cover;
+    background-image: url("https://iai.tv/assets/Uploads/_resampled/FillWyI4MDAiLCI1MDAiXQ/Our-model-of-the-universe-has-been-falsified.dc.jpg"); 
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* margin: 0; */
+    /* padding: 0; */
+
+
+
+
 
 }
+
+
+
+
+
+
 
