@@ -18,7 +18,8 @@ fetch('http://localhost:3000/planets')
 
             firstList.appendChild(mainPlanetList)
             
-            //Unordered list with respective dersired information
+
+            //Unordered list with respective information
             
             const planetName = document.createElement("h3")
             planetName.textContent = planet.name
@@ -32,9 +33,12 @@ fetch('http://localhost:3000/planets')
             const planetTemp = document.createElement("h4")
             planetTemp.textContent = `Average temperature: ${planet.averageTemperature}`
 
+            const planetImg = document.createElement("img")
+            planetImg.src = planet.image
+
             
             const planetList = document.createElement("li")
-            planetList.append(planetName, planetSize, planetColor, planetTemp)
+            planetList.append(planetName, planetSize, planetColor, planetTemp, planetImg)
            
             allPlanets.appendChild(planetList)
 

@@ -5,63 +5,72 @@
         "name" : "Mercury",
         "size" : "1,516mi (2,440km) radius",
         "predominantColor" : "grey",
-        "averageTemperature" : "333°F (167°C)"
+        "averageTemperature" : "333°F (167°C)",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/800px-Mercury_in_true_color.jpg"
     },
     {
         "id" : 2,
         "name" : "Venus",
         "size" : "3,760mi (6,052km) radius",
         "predominantColor" : "brown",
-        "averageTemperature" : "867°F (464°C)"
+        "averageTemperature" : "867°F (464°C)",
+        "image" : "https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRtqGYOVmn7rlUHM47dO2MUGjjqp-NkClqUJ7QIxAwGAulcM5kvScQrZSkfglqd92ua"
     },
     {
         "id" : 3,
         "name" : "Earth",
         "size" : "3,959mi (6,371km) radius",
         "predominantColor" : "blue",
-        "averageTemperature" : "59°F (15°C)"
+        "averageTemperature" : "59°F (15°C)",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/1024px-The_Blue_Marble_%28remastered%29.jpg"
     },
     {
         "id" : 4,
         "name" : "Mars",
         "size" : "2,106mi (3,390km) radius",
         "predominantColor" : "red",
-        "averageTemperature" : "-85°F (-65°C)"
+        "averageTemperature" : "-85°F (-65°C)",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/1024px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"
     },
     {
         "id" : 5,
         "name" : "Jupiter",
         "size" : "43,441mi (69,911km) radius",
         "predominantColor" : "brown",
-        "averageTemperature" : "-166°F (-110°C)"
+        "averageTemperature" : "-166°F (-110°C)",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/c/c1/Jupiter_New_Horizons.jpg"
     },
     {
         "id" : 6,
         "name" : "Saturn",
         "size" : "36,184mi (58,232km) radius",
         "predominantColor" : "golden",
-        "averageTemperature" : "-220°F (-140°C)"
+        "averageTemperature" : "-220°F (-140°C)",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1024px-Saturn_during_Equinox.jpg"
     },
     {
         "id" : 7,
         "name" : "Uranus",
         "size" : "15,759mi (25,362km) radius",
         "predominantColor" : "blue-green",
-        "averageTemperature" : "-320°F (-195°C)"
+        "averageTemperature" : "-320°F (-195°C)",
+        "image" : "https://ychef.files.bbci.co.uk/live/624x351/p0257vk5.jpg"
     },
     {
         "id" : 8,
         "name" : "Neptune",
         "size" : "15,299mi (24,622km) radius",
         "predominantColor" : "blue",
-        "averageTemperature" : "-330°F (-200°C)"
+        "averageTemperature" : "-330°F (-200°C)",
+        "image" : "https://static.wikia.nocookie.net/space/images/0/06/Neptune.jpg/revision/latest?cb=20090406150350"
     },
     {
         "id" : 9,
         "name" : "Pluto?",
         "size" : "738mi (1,188km) radius",
         "predominantColor" : "white",
-        "averageTemperature" : "-375°F (-225°C)"
+        "averageTemperature" : "-375°F (-225°C)",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/1024px-Pluto_in_True_Color_-_High-Res.jpg"
     }
 
 ]
