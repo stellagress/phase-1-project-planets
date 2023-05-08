@@ -13,6 +13,7 @@
 
 .main-planet-list {
     background-image: url("https://s1.static.brasilescola.uol.com.br/be/2022/09/2-sistema-solar.jpg");
+    background-size : cover;
 
 }
 
