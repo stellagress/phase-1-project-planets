@@ -1,43 +1,68 @@
 
 
-
+const firstList = document.querySelector("ol#mainPlanetList")
+const allPlanets = document.querySelector("ul#planetList")
 
 
 fetch('http://localhost:3000/planets')
     .then(response=> response.json())
     .then(planets =>{
-        const firstList = document.querySelector("ol#mainPlanetList")
-        const allPlanets = document.querySelector("ul#planetList")
         planets.forEach(planet => {
            
-            //Ordered List of planets: 
+            //Create planet elements of main top list (ordered list):
             const mainPlanetList = document.createElement("li")
             const name = document.createElement("h3")
+
+            // Set value of ordered list elements: 
             name.textContent = planet.name
+
+
+            //Add element to the DOM:
             mainPlanetList.appendChild(name)
+
+
+
+
+
+            // Create planet elements of planets' info (unordered list):
+            const planetList = document.createElement("li")
+            const planetName = document.createElement("h3")
+            const planetSize = document.createElement("h4")
+            const planetColor = document.createElement("h4")
+            const planetTemp = document.createElement("h4")
+            const planetImg = document.createElement("img")
+
+
+
+         
+
+
+            
+            
+            
 
             firstList.appendChild(mainPlanetList)
             
 
             //Unordered list with respective information
             
-            const planetName = document.createElement("h3")
+            
             planetName.textContent = planet.name
 
-            const planetSize = document.createElement("h4")
+            
             planetSize.textContent = `Size: ${planet.size}`
 
-            const planetColor = document.createElement("h4")
+            
             planetColor.textContent = `Predominant color: ${planet.predominantColor}`
 
-            const planetTemp = document.createElement("h4")
+            
             planetTemp.textContent = `Average temperature: ${planet.averageTemperature}`
 
-            const planetImg = document.createElement("img")
+            
             planetImg.src = planet.image
 
             
-            const planetList = document.createElement("li")
+            
             planetList.append(planetName, planetSize, planetColor, planetTemp, planetImg)
            
             allPlanets.appendChild(planetList)
@@ -75,11 +100,7 @@ fetch('http://localhost:3000/planets')
 
 
 
-    //let olPlanets = document.querySelector("ol#mainPlanetList")
-    // firstList.addEventListener('mouseover', e=> {
-    //     e.preventDefault()
-    //     console.log(e)})
-
+   
     
 
 
