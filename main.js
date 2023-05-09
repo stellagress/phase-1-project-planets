@@ -42,21 +42,21 @@ fetch('http://localhost:3000/planets')
             
 
        
-            //first eventListener -> MouseOver:
+            //first eventListener -> MouseOver on ordered list elements:
             firstList.querySelectorAll("h3").forEach(name => {
                 name.addEventListener('mouseover', e => {
                     e.target.style.fontSize = "32px"
                 })
             })
 
-            //second eventListener -> MouseOut:
+            //second eventListener -> MouseOut on ordered list elements:
             firstList.querySelectorAll("h3").forEach(name=>{
                 name.addEventListener('mouseout', e=> {
                     e.target.style.fontSize= "24px"
                 })
             })
 
-            //thirs eventListener -> click:
+            //third eventListener -> click on ordered list elements:
             firstList.querySelectorAll("h3").forEach(name=>{
                 name.addEventListener('click', e=>{
                     const planetNameTex = e.target.textContent
