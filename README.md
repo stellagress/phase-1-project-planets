@@ -4,7 +4,7 @@ Project planets is an informational page that shows basic characteristics and cu
 
 
 ## Installation
-Access [myGitHubLink](https://github.com/stellagress/phase-1-project-planets) to fork project
+Access [myGitHubLink](https://github.com/stellagress/phase-1-project-planets) to fork project.
 
 
 
@@ -29,3 +29,8 @@ Contributions are welcomed through forking and submitting pull requests.
 
 ## License
 Project planets is licensed under the MIT License. See the 'LICENSE' file for more information.
+
+
+
+## References
+All links where information and pictures were gathered are referenced in the bottom of page, under references.

@@ -29,7 +29,7 @@ fetch('http://localhost:3000/planets')
             const planetTemp = document.createElement("h4")
             const planetImg = document.createElement("img")
             const planetCuriosity = document.createElement("button")
-            
+
 
             // Set values of unordered list elements: 
             planetName.textContent = planet.name
@@ -79,8 +79,6 @@ fetch('http://localhost:3000/planets')
                 const message = planet.curiosity
                 alert(message)
             })
-
-
 
 
 
