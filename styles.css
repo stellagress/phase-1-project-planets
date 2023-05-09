@@ -31,9 +31,15 @@ body {
     font-weight: bold;
     font-style: italic;
 
-
 }
 
+
+.planet-list{
+    background-image: url("https://t3.ftcdn.net/jpg/00/10/44/90/360_F_10449044_QcPFz8sbGIlP3NyV6iVRQ4XowG8wlUC1.jpg");
+    background-size: 100%;
+    color: white
+
+}
 
 
 
