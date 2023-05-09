@@ -3,6 +3,20 @@
 const firstList = document.querySelector("ol#mainPlanetList")
 const allPlanets = document.querySelector("ul#planetList")
 
+// Create a card element with a message
+const card = document.createElement("div");
+card.classList.add("card");
+const message = document.createElement("p");
+card.appendChild(message);
+
+const closeButton = document.createElement("button");
+closeButton.textContent = "Close";
+closeButton.addEventListener("click", () => {
+  card.style.display = "none";
+});
+card.appendChild(closeButton);
+document.body.appendChild(card);
+
 
 fetch('http://localhost:3000/planets')
     .then(response=> response.json())
@@ -70,10 +84,12 @@ fetch('http://localhost:3000/planets')
                 })
             })
 
+            
+
             // fourth eventListener -> curiosity button functionality on unordered list of elements:
             planetCuriosity.addEventListener("click", () => {
-                const message = planet.curiosity
-                console.log(message)
+                message.textContent = planet.curiosity
+                card.style.display = "block";
                 //alert(message)
             })
          
