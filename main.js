@@ -3,20 +3,6 @@
 const firstList = document.querySelector("ol#mainPlanetList")
 const allPlanets = document.querySelector("ul#planetList")
 
-// Create a card element with a message
-const card = document.createElement("div");
-card.classList.add("card");
-const message = document.createElement("p");
-card.appendChild(message);
-
-const closeButton = document.createElement("button");
-closeButton.textContent = "Close";
-closeButton.addEventListener("click", () => {
-  card.style.display = "none";
-});
-card.appendChild(closeButton);
-document.body.appendChild(card);
-
 
 fetch('http://localhost:3000/planets')
     .then(response=> response.json())
@@ -43,6 +29,7 @@ fetch('http://localhost:3000/planets')
             const planetTemp = document.createElement("h4")
             const planetImg = document.createElement("img")
             const planetCuriosity = document.createElement("button")
+            
 
             // Set values of unordered list elements: 
             planetName.textContent = planet.name
@@ -51,6 +38,7 @@ fetch('http://localhost:3000/planets')
             planetTemp.textContent = `Average temperature: ${planet.averageTemperature}`
             planetImg.src = planet.image
             planetCuriosity.textContent = `Curiosity`
+            
 
             // Add ul elements to the DOM:
             planetList.append(planetName, planetSize, planetColor, planetTemp, planetImg, planetCuriosity)
@@ -88,11 +76,13 @@ fetch('http://localhost:3000/planets')
 
             // fourth eventListener -> curiosity button functionality on unordered list of elements:
             planetCuriosity.addEventListener("click", () => {
-                message.textContent = planet.curiosity
-                card.style.display = "block";
-                //alert(message)
+                const message = planet.curiosity
+                alert(message)
             })
-         
+
+
+
+
 
         })
     })
