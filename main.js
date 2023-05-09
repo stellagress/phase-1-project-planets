@@ -70,11 +70,12 @@ fetch('http://localhost:3000/planets')
                 })
             })
 
-            // // fourth eventListener -> curiosity button functionality on unordered list of elements:
-            // planetCuriosity.addEventListener("click", () => {
-            //     const message = planet.curiosity
-            //     alert(message)
-            // })
+            // fourth eventListener -> curiosity button functionality on unordered list of elements:
+            planetCuriosity.addEventListener("click", () => {
+                const message = planet.curiosity
+                console.log(message)
+                //alert(message)
+            })
          
 
         })
