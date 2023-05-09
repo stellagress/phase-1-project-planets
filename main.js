@@ -16,12 +16,9 @@ fetch('http://localhost:3000/planets')
             // Set value of ordered list elements: 
             name.textContent = planet.name
 
-
-            //Add element to the DOM:
+            //Add ol element to the DOM:
             mainPlanetList.appendChild(name)
-
-
-
+            firstList.appendChild(mainPlanetList)
 
 
             // Create planet elements of planets' info (unordered list):
@@ -32,40 +29,17 @@ fetch('http://localhost:3000/planets')
             const planetTemp = document.createElement("h4")
             const planetImg = document.createElement("img")
 
-
-
-         
-
-
-            
-            
-            
-
-            firstList.appendChild(mainPlanetList)
-            
-
-            //Unordered list with respective information
-            
-            
+            // Set values of unordered list elements: 
             planetName.textContent = planet.name
-
-            
-            planetSize.textContent = `Size: ${planet.size}`
-
-            
+            planetSize.textContent = `Size: ${planet.size}`           
             planetColor.textContent = `Predominant color: ${planet.predominantColor}`
-
-            
             planetTemp.textContent = `Average temperature: ${planet.averageTemperature}`
-
-            
             planetImg.src = planet.image
 
-            
-            
+            // Add ul elements to the DOM:
             planetList.append(planetName, planetSize, planetColor, planetTemp, planetImg)
-           
             allPlanets.appendChild(planetList)
+            
 
        
             //first eventListener -> MouseOver:
