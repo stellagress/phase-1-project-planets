@@ -6,7 +6,8 @@
         "size" : "1,516mi (2,440km) radius",
         "predominantColor" : "grey",
         "averageTemperature" : "333°F (167°C)",
-        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/800px-Mercury_in_true_color.jpg"
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/800px-Mercury_in_true_color.jpg",
+        "curiosity" : "The smallest planet in our solar system and closest to the Sun - is only slightly larger than Earth's Moon. Mercury is the fastest planet, zipping around the Sun every 88 Earth days" 
     },
     {
         "id" : 2,
@@ -14,7 +15,8 @@
         "size" : "3,760mi (6,052km) radius",
         "predominantColor" : "brown",
         "averageTemperature" : "867°F (464°C)",
-        "image" : "https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRtqGYOVmn7rlUHM47dO2MUGjjqp-NkClqUJ7QIxAwGAulcM5kvScQrZSkfglqd92ua"
+        "image" : "https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRtqGYOVmn7rlUHM47dO2MUGjjqp-NkClqUJ7QIxAwGAulcM5kvScQrZSkfglqd92ua",
+        "curiosity" : "Venus spins slowly in the opposite direction from most planets. A thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system."
     },
     {
         "id" : 3,
@@ -22,7 +24,8 @@
         "size" : "3,959mi (6,371km) radius",
         "predominantColor" : "blue",
         "averageTemperature" : "59°F (15°C)",
-        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/1024px-The_Blue_Marble_%28remastered%29.jpg"
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/1024px-The_Blue_Marble_%28remastered%29.jpg",
+        "curiosity" : "Earth-our home planet--is the only place we know of so far that's inhabited by living things. It's also the only planet in our solar system with liquid water on the surface."
     },
     {
         "id" : 4,
@@ -30,7 +33,8 @@
         "size" : "2,106mi (3,390km) radius",
         "predominantColor" : "red",
         "averageTemperature" : "-85°F (-65°C)",
-        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/1024px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/1024px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+        "curiosity" : "Mars is a dusty, cold, desert world with a very thin atmosphere. There is strong evidence Mars was - billions of years ago - wetter and warmer, with a thicker atmosphere."
     },
     {
         "id" : 5,
@@ -38,7 +42,8 @@
         "size" : "43,441mi (69,911km) radius",
         "predominantColor" : "brown",
         "averageTemperature" : "-166°F (-110°C)",
-        "image" : "https://upload.wikimedia.org/wikipedia/commons/c/c1/Jupiter_New_Horizons.jpg"
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/c/c1/Jupiter_New_Horizons.jpg",
+        "curiosity" : "Jupiter is more than twice as massive than the other planets of our solar system combined. The giant planet's Great Red spot is a centuries-old storm bigger than Earth."
     },
     {
         "id" : 6,
@@ -46,7 +51,8 @@
         "size" : "36,184mi (58,232km) radius",
         "predominantColor" : "golden",
         "averageTemperature" : "-220°F (-140°C)",
-        "image" : "https://media.istockphoto.com/id/480019224/pt/foto/saturno.jpg?s=612x612&w=0&k=20&c=M65wLsCcN_kFp3FBke9-GzeYsgWU9jlM0493d1rI1i4="
+        "image" : "https://media.istockphoto.com/id/480019224/pt/foto/saturno.jpg?s=612x612&w=0&k=20&c=M65wLsCcN_kFp3FBke9-GzeYsgWU9jlM0493d1rI1i4=",
+        "curiosity" : "Adorned with a dazzling, complex system of icy rings, Saturn is unique in our solar system. The other giant planets have rings, but none are as spectacular as Saturn's."
     },
     {
         "id" : 7,
@@ -54,7 +60,8 @@
         "size" : "15,759mi (25,362km) radius",
         "predominantColor" : "blue-green",
         "averageTemperature" : "-320°F (-195°C)",
-        "image" : "https://photos.demandstudios.com/getty/article/178/19/87467156.jpg"
+        "image" : "https://photos.demandstudios.com/getty/article/178/19/87467156.jpg",
+        "curiosity" : "Uranus-seventh planet from the Sun-rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side."
     },
     {
         "id" : 8,
@@ -62,7 +69,8 @@
         "size" : "15,299mi (24,622km) radius",
         "predominantColor" : "blue",
         "averageTemperature" : "-330°F (-200°C)",
-        "image" : "https://static.wikia.nocookie.net/space/images/0/06/Neptune.jpg/revision/latest?cb=20090406150350"
+        "image" : "https://static.wikia.nocookie.net/space/images/0/06/Neptune.jpg/revision/latest?cb=20090406150350",
+        "curiosity" : "Neptune-the eighth and most distant major planet orbiting our Sun- is dark, cold and whipped by supersonic winds. It was the first planet located through mathematical calculations."
     }
 
 ]

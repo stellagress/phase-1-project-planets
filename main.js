@@ -28,6 +28,7 @@ fetch('http://localhost:3000/planets')
             const planetColor = document.createElement("h4")
             const planetTemp = document.createElement("h4")
             const planetImg = document.createElement("img")
+            const planetCuriosity = document.createElement("button")
 
             // Set values of unordered list elements: 
             planetName.textContent = planet.name
@@ -35,9 +36,10 @@ fetch('http://localhost:3000/planets')
             planetColor.textContent = `Predominant color: ${planet.predominantColor}`
             planetTemp.textContent = `Average temperature: ${planet.averageTemperature}`
             planetImg.src = planet.image
+            planetCuriosity.textContent = `Curiosity`
 
             // Add ul elements to the DOM:
-            planetList.append(planetName, planetSize, planetColor, planetTemp, planetImg)
+            planetList.append(planetName, planetSize, planetColor, planetTemp, planetImg, planetCuriosity)
             allPlanets.appendChild(planetList)
             
 
@@ -67,6 +69,12 @@ fetch('http://localhost:3000/planets')
                     })
                 })
             })
+
+            // // fourth eventListener -> curiosity button functionality on unordered list of elements:
+            // planetCuriosity.addEventListener("click", () => {
+            //     const message = planet.curiosity
+            //     alert(message)
+            // })
          
 
         })
