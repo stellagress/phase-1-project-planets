@@ -1,5 +1,9 @@
 body {
-    background-color: gray;
+    /* background-color:lavender */
+    /* background-color:aliceblue */
+   /* background-color: rgb(6, 35, 107); */
+
+   background-color: rgb(3, 13, 41);
 } 
 
 
@@ -12,7 +16,8 @@ body {
 
 
 .main-planet-list {
-    background-image: url("https://iai.tv/assets/Uploads/_resampled/FillWyI4MDAiLCI1MDAiXQ/Our-model-of-the-universe-has-been-falsified.dc.jpg"); 
+    /* background-image: url("https://iai.tv/assets/Uploads/_resampled/FillWyI4MDAiLCI1MDAiXQ/Our-model-of-the-universe-has-been-falsified.dc.jpg");  */
+    background-image: url("https://s1.static.brasilescola.uol.com.br/be/2022/09/2-sistema-solar.jpg");
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -20,8 +25,8 @@ body {
     /* padding: 0; */
 
 
-    /* text-decoration: underline; */
-    color : white;
+    text-decoration: underline;
+    color : black;
     font-size: 24px;
     font-weight: bold;
     font-style: italic;

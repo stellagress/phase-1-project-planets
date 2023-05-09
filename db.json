@@ -63,16 +63,12 @@
         "predominantColor" : "blue",
         "averageTemperature" : "-330°F (-200°C)",
         "image" : "https://static.wikia.nocookie.net/space/images/0/06/Neptune.jpg/revision/latest?cb=20090406150350"
-    },
-    {
-        "id" : 9,
-        "name" : "Pluto?",
-        "size" : "738mi (1,188km) radius",
-        "predominantColor" : "white",
-        "averageTemperature" : "-375°F (-225°C)",
-        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/1024px-Pluto_in_True_Color_-_High-Res.jpg"
     }
 
 ]
 
 }
+
+
+
+
