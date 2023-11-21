@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "scripts": {
       "start": "npx json-server --watch db.json",
-      "open": "explorer.exe index.html"
+      "open": "xdg-open index.html"
     },
     "dependencies": {
       "json-server": "^0.17.0"
