@@ -77,7 +77,13 @@ fetch('http://localhost:3000/planets')
             // fourth eventListener -> curiosity button functionality on unordered list of elements:
             planetCuriosity.addEventListener("click", () => {
                 const message = planet.curiosity
-                alert(message)
+                // alert(message)
+                const curiosityParagraph = document.createElement("p")
+                curiosityParagraph.textContent = message
+                planetList.append(curiosityParagraph)
+                
+                
+
             })
 
 
