@@ -6,7 +6,7 @@
     "version": "1.0.0",
     "scripts": {
       "start": "json-server --watch db.json",
-      "open": "xdg-open index.html",
+      "open": "sensible-browser index.html",
       "install-tools": "npm install -g json-server",
       "start-tools": "json-server --watch db.json"
     },
