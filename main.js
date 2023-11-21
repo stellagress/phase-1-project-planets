@@ -102,14 +102,11 @@ fetch('http://localhost:3000/planets')
                     isCuriosityVisible = true;
                 }
             });
-<<<<<<< HEAD
-=======
 
 
 
 
 
->>>>>>> origin/main
 
 
 
