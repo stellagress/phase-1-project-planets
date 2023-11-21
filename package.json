@@ -2,9 +2,8 @@
     "name": "phase-1-project-planets",
     "version": "1.0.0",
     "scripts": {
-      "start": "npx json-server --watch db.json",
+      "start": "npm install -g json-server",
       "open": "explorer.exe index.html",
-      "install-tools": "npm install -g json-server",
       "start-tools": "json-server --watch db.json"
     },
     "dependencies": {
