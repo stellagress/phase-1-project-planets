@@ -75,16 +75,48 @@ fetch('http://localhost:3000/planets')
             
 
             // fourth eventListener -> curiosity button functionality on unordered list of elements:
-            planetCuriosity.addEventListener("click", () => {
-                const message = planet.curiosity
-                // alert(message)
-                const curiosityParagraph = document.createElement("p")
-                curiosityParagraph.textContent = message
-                planetList.append(curiosityParagraph)
-                
-                
+            // planetCuriosity.addEventListener("click", () => {
+            //     const message = planet.curiosity
+            //     // alert(message)
+            //     const curiosityParagraph = document.createElement("p")
+            //     curiosityParagraph.textContent = message
+            //     planetList.append(curiosityParagraph)          
 
-            })
+            // })
+
+
+
+            let isCuriosityVisible = false;
+            let curiosityParagraph;
+
+            planetCuriosity.addEventListener("click", () => {
+                const message = planet.curiosity;
+
+                // Check if the text is currently visible
+                if (isCuriosityVisible) {
+                    // If visible, hide the text by removing it
+                    if (curiosityParagraph) {
+                        curiosityParagraph.remove();
+                    }
+
+                    // Update the flag
+                    isCuriosityVisible = false;
+                } else {
+                    // If not visible, create and display the text
+                    curiosityParagraph = document.createElement("p");
+                    curiosityParagraph.textContent = message;
+
+                    planetList.append(curiosityParagraph);
+
+                    // Update the flag
+                    isCuriosityVisible = true;
+                }
+            });
+
+
+
+
+
 
 
 
