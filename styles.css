@@ -62,7 +62,11 @@ button {
 
 
 
-.myParagraph {
+.referenceContainer a {
     color: white;
 }
 
+
+.referenceContainer a:visited {
+    color: purple; 
+}
