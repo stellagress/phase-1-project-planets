@@ -1,4 +1,5 @@
 
+// Improved Version: 
 
 const firstList = document.querySelector("ol#mainPlanetList")
 const allPlanets = document.querySelector("ul#planetList")
@@ -101,6 +102,14 @@ fetch('http://localhost:3000/planets')
                     isCuriosityVisible = true;
                 }
             });
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> origin/main
 
 
 
@@ -112,6 +121,7 @@ fetch('http://localhost:3000/planets')
    
     
 
+    // Original Version: 
 
 
     // const firstList = document.querySelector("ol#mainPlanetList")

@@ -60,3 +60,13 @@ button {
     height: 50px;
 }
 
+
+
+.referenceContainer a {
+    color: white;
+}
+
+
+.referenceContainer a:visited {
+    color: purple; 
+}
