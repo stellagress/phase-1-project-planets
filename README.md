@@ -4,7 +4,13 @@ Project planets is an informational page that shows basic characteristics and cu
 
 
 ## Installation
-Access [myGitHubLink](https://github.com/stellagress/phase-1-project-planets) to fork project.
+Access [myGitHubLink](https://github.com/stellagress/phase-1-project-planets) to fork and clone project
+Run commands: 
+npm install -g json-server
+json-server --watch db.json
+For Mac - open index.html 
+For  WSL - explorer.exe index.html
+
 
 
 
