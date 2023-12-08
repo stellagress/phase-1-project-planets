@@ -4,10 +4,10 @@
     "name": "phase-1-project-planets",
     "version": "1.0.0",
     "scripts": {
-      "start": "json-server --watch db.json",
+      "start": "json-server --watch db.json --port 3000/planets",
       "open": "open index.html",
       "install-tools": "npm install -g json-server",
-      "start-tools": "json-server --watch db.json"
+      "start-tools": "json-server --watch db.json --port 3000/planets"
     },
     "dependencies": {
       "json-server": "0.17.0"
