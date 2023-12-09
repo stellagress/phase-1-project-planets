@@ -4,7 +4,7 @@
     "name": "phase-1-project-planets",
     "version": "1.0.0",
     "scripts": {
-      "start": "json-server --watch db.json",
+      "start": "node main.js",
       "open": "open index.html",
       "install-tools": "npm install -g json-server",
       "start-tools": "json-server --watch db.json"
