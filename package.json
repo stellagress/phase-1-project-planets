@@ -1,16 +1,14 @@
-  
 
 {
     "name": "phase-1-project-planets",
     "version": "1.0.0",
     "scripts": {
-      "start": "node main.js",
-      "open": "open index.html",
+      "start": "json-server --watch db.json",
+      "open": "explorer.exe index.html",
       "install-tools": "npm install -g json-server",
       "start-tools": "json-server --watch db.json"
     },
     "dependencies": {
-      "json-server": "0.17.0"
+      "json-server": "^0.17.0"
     }
-  }
-  
+}
