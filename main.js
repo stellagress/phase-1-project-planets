@@ -6,7 +6,7 @@ const allPlanets = document.querySelector("ul#planetList")
 
 
 // fetch('http://localhost:3000/planets')
-fetch('https://sm-project-planets.onrender.com/')
+fetch('/api/planets')
     .then(response=> response.json())
     .then(planets =>{
         planets.forEach(planet => {
