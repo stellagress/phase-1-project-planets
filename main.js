@@ -5,7 +5,8 @@ const firstList = document.querySelector("ol#mainPlanetList")
 const allPlanets = document.querySelector("ul#planetList")
 
 
-fetch('http://localhost:3000/planets')
+// fetch('http://localhost:3000/planets')
+fetch('https://sm-project-planets.onrender.com/')
     .then(response=> response.json())
     .then(planets =>{
         planets.forEach(planet => {
